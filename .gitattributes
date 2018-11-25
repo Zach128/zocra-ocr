@@ -40,5 +40,6 @@
 *.war           binary
 
 # Ignore folders for linguist scan
-.idea/* linguist-vendored
-.settings/* linguist-vendored
+.idea/* linguist-vendored=true
+.settings/* linguist-vendored=true
+src/* linguist-vendored=false
