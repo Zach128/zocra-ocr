@@ -37,4 +37,8 @@
 *.jpeg          binary
 *.png           binary
 *.so            binary
-*.war binary
+*.war           binary
+
+# Ignore folders for linguist scan
+.idea/* linguist-vendored
+.settings/* linguist-vendored
